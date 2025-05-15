@@ -1,53 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Ezz</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Ezz Blog</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
 
-    <header>
-        <h1>Mohamed Ezz</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="posts.html">Blog Posts</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Header & Navigation -->
+  <header>
+    <h1>Mohamed Ezz</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog-list">Blog Posts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section>
-            <h2>Welcome to My Blog</h2>
-            <article>
-                <h2><a href="post1.html">How to Start a Blog in 2025</a></h2>
-                <p>Learn the essential steps to launch your personal blog and attract your first readers.</p>
-                <p>May 10, 2025
-                <p>
-            </article>
+  <!-- Blog Post Summaries -->
+  <main>
+    <section id="blog-list">
+      <h2>Recent Posts</h2>
 
-            <article>
-                <h2><a href="post2.html">Top 5 Web Dev Trends to Watch</a></h2>
-                <p>Discover what’s trending in web development and how you can stay ahead of the curve.</p>
-                <p>May 5, 2025
-                <p>
-            </article>
+      <article>
+        <h2><a href="#post1">How to Start a Blog in 2025</a></h2>
+        <p>Learn the essential steps to launch your personal blog and attract your first readers.</p>
+        <p>Published: May 10, 2025</p>
+      </article>
 
-            <article>
-                <h2><a href="post3.html">Boost Your Productivity with These Tools</a></h2>
-                <p>Check out our favorite tools that help bloggers and developers stay organized and efficient.</p>
-                <p>April 28, 2025</p>
-            </article>
-        </section>
-    </main>
+      <article>
+        <h2><a href="#post2">Top 5 Web Dev Trends to Watch</a></h2>
+        <p>Discover what’s trending in web development and how you can stay ahead of the curve.</p>
+        <p>Published: May 5, 2025</p>
+      </article>
 
-    <footer>
-        <p>&copy; 2025 Mohamed Ezz. All rights reserved.</p>
-    </footer>
+      <article>
+        <h2><a href="#post3">Boost Your Productivity with These Tools</a></h2>
+        <p>Check out our favorite tools that help bloggers and developers stay organized and efficient.</p>
+        <p>Published: April 28, 2025</p>
+      </article>
+    </section>
+
+    <!-- Detailed Blog Posts -->
+    <section id="blog-details">
+      <!-- Post 1 -->
+      <article id="post1">
+        <h1>How to Start a Blog in 2025</h1>
+        <address>By Mohamed Ezz</address>
+        <p>Published: May 10, 2025</p>
+        <p>Starting a blog is easier than ever. You just need a platform, a niche, and some passion. In this guide, we’ll walk you through everything step-by-step.</p>
+        <img src="images/blogging-guide.jpeg" alt="Laptop with blogging dashboard" />
+        <p>Here are the basic steps to start your blog:</p>
+        <ol>
+          <li>Choose a blogging platform (like WordPress or Ghost)</li>
+          <li>Pick a domain name</li>
+          <li>Design your blog layout</li>
+          <li>Start writing!</li>
+        </ol>
+        <p>Learn more from the <a href="https://www.w3schools.com/html/" target="_blank" name="htmlGuide">HTML Beginner’s Guide</a>.</p>
+      </article>
+
+      <!-- Post 2 -->
+      <article id="post2">
+        <h1>Top 5 Web Dev Trends to Watch</h1>
+        <address>By Mohamed Ezz</address>
+        <p>Published: May 5, 2025</p>
+        <p>The tech world moves fast, and these web development trends are shaping the future.</p>
+        <img src="images/web-trends.jpg" alt="Abstract representation of technology trends" />
+        <p>Here’s what to watch:</p>
+        <ul>
+          <li>AI-powered content generation</li>
+          <li>Serverless architectures</li>
+          <li>Progressive Web Apps (PWAs)</li>
+          <li>Dark mode design standards</li>
+          <li>Headless CMS adoption</li>
+        </ul>
+        <p>Dive deeper via <a href="https://web.dev/learn/" target="_blank" name="webDevTrends">Google's Web Dev Resources</a>.</p>
+      </article>
+
+      <!-- Post 3 -->
+      <article id="post3">
+        <h1>Boost Your Productivity with These Tools</h1>
+        <address>By Mohamed Ezz</address>
+        <p>Published: April 28, 2025</p>
+        <p>Productivity doesn’t come from hustle alone — tools matter.</p>
+        <img src="images/productivity-tools.avif" alt="Checklist and productivity apps on screen" />
+        <p>Our go-to toolkit includes:</p>
+        <ul>
+          <li>Notion for organizing tasks</li>
+          <li>VS Code for coding</li>
+          <li>Trello for team projects</li>
+          <li>Figma for design collaboration</li>
+        </ul>
+        <p>Try these tools by visiting their sites. Example: <a href="https://www.notion.so" target="_blank" name="notionApp">Notion</a>.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mohamed Ezz. All rights reserved.</p>
+  </footer>
+
 </body>
-
 </html>
